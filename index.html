@@ -1,22 +1,76 @@
 <html>
     <head>
+        <link rel="icon" type="image/x-icon" href="https://github.com/OliCSH/mysite/blob/main/O.png?raw=true">
         <title>HOME</title>
         <style>
             body {
-                background-image: url('https://github.com/OliCSH/mysite/blob/main/olicsh.png?raw=true');
+                background-image: url('https://github.com/OliCSH/mysite/blob/main/IMG_4467.gif?raw=true');
                 background-repeat: repeat;
+                background-size: 256px 256px;
+	            background-attachment: fixed;
             }
-            h1 {
-                background-color: #ffffff80;
-                color: #FFFFFF;
-                font-family: 'Courier New', Courier, monospace;
-                text-align: center;
+            .ipodm {
+                font-size: 80px;
+                background: linear-gradient(#afafaf 15%, #303030 40%, #303030 50%, #101010 100%);
+                border-radius: 40px;
+                color: #ffffff;
+                padding-bottom: 6px;
+                padding-left: 30px;
+                padding-right: 30px;
+                box-shadow: inset 0px 0px 5px 5px #404040;
+                font-family: 'Grenze Gotisch', cursive;
+            }
+            .ipods {
+                
+                background: linear-gradient(hsl(0, 0%, 87%) 15%, #e4e4e4 40%, #d3d3d3 50%, #dadada 100%);
+                border-radius: 15px;
+                color: #000000;
+                padding-bottom: 5px;
+                padding-top: 3px;
+                padding-left: 15px;
+                padding-right: 15px;
+                box-shadow: inset 0px 0px 5px 5px #7979794d;
+                font-family: 'Noto Sans', cursive;
+            }
+            h1 .ipods {
+                font-size: 40px;
             }
         </style>
+        <!--FONT 1-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap" rel="stylesheet">
+        <!--FONT 2-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>
-            title
-        </h1>
+        <table>
+            <tr>
+                <th>
+                    <h1 class="ipodm">
+                        OliCSH
+                    </h1>
+                </th> 
+            </tr>    
+        </table>
+        <table>
+            <tr>
+                <th>
+                    <h1 class="ipods">
+                        Links to My Projects
+                    </h1>
+                </th> 
+            </tr>    
+        </table>
+        <table class="ipods">
+            <tr>
+                <th><a href="https://olicsh.github.io/renaissance-home">Renaissance Music Project</th>
+                <th>r1c2</th>
+                <th>r1c3</th>
+                <th>r1c4</th>
+            </tr>
+        </table>
     </body>
 </html>
