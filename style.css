@@ -1,0 +1,44 @@
+body {
+    background-image: url(https://github.com/OliCSH/mysite/blob/main/bg.gif?raw=true);
+    background-repeat: repeat;
+	background-attachment: fixed;
+}
+h1, p, h2, h3, a {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+}
+p {
+    font-size: 15px;
+    width: 90%;
+    margin-left: 5%;
+}
+.icon {
+    height: 15px;
+    width: auto;
+    padding-bottom: 10;
+}
+a {
+      text-decoration: none;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+  }
+a:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+.hurtbg {
+    background-image: url(https://github.com/OliCSH/mysite/blob/main/bg2.gif?raw=true);
+}
+.fav {
+    background-color: #ff0000;
+    color: #ffffff;
+}
